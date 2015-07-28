@@ -1,0 +1,107 @@
+<com.agimind.widget.SlideHolder xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slideHolder"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black" >
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_selector"
+                android:gravity="center_vertical|left"
+                android:text="@string/about"
+                android:textColor="@color/title_btn_text" />
+
+<!--             <Button
+                android:id="@+id/setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_selector"
+                android:gravity="center_vertical|left"
+                android:text="@string/setting"
+                android:textColor="@color/title_btn_text" /> -->
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/back"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="15dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:stretchColumns="*" >
+
+                <TableRow>
+
+                    <!-- 如果需要修改按钮背景颜色修改drawable/button_gradient_main中对应的值即可 -->
+                    <Button
+                        android:id="@+id/all_element"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_selector"
+                        android:fadingEdge="horizontal|vertical"
+                        android:layout_margin="1.0dip"
+                        android:text="@string/all_element" />
+
+                    <Button
+                        android:id="@+id/search"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_selector"
+                        android:layout_margin="1.0dip"
+                        android:text="@string/search" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/game"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_selector"
+                        android:layout_margin="1.0dip"
+                        android:text="@string/game" />
+
+                    <Button
+                        android:id="@+id/calc"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_selector"
+                        android:layout_margin="1.0dip"
+                        android:text="@string/calc" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.agimind.widget.SlideHolder>

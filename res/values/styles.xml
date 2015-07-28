@@ -1,0 +1,119 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+    </style>
+   
+    
+    <style name="table_blank">
+        <item name="android:layout_height">25dip</item>
+        <item name="android:layout_width">25dip</item>
+        <item name="android:alpha">0</item>        
+        <item name="android:layout_margin">1.0px</item>
+    </style>
+    
+    <style name="table_blank_small">
+	    <item name="android:layout_height">5dip</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:alpha">0</item>        
+	    <item name="android:layout_margin">1.0px</item>
+    </style>
+    
+     <style name="table_item">
+        <item name="android:layout_height">25dip</item>
+        <item name="android:layout_width">25dip</item>
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textStyle">bold</item>        
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/a</item>
+        <item name="android:layout_margin">1.0px</item>    
+    </style>
+    
+     <style name = "item_a" parent="table_item">
+         <item name="android:background">@drawable/a</item>
+     </style>
+     <style name = "item_b" parent="table_item">
+         <item name="android:background">@drawable/b</item>
+     </style>
+     <style name = "item_c" parent="table_item">
+         <item name="android:background">@drawable/c</item>
+     </style>
+     <style name = "item_d" parent="table_item">
+         <item name="android:background">@drawable/d</item>
+     </style>
+     <style name = "item_e" parent="table_item">
+         <item name="android:background">@drawable/e</item>
+     </style>
+     <style name = "item_f" parent="table_item">
+         <item name="android:background">@drawable/f</item>
+     </style>
+     <style name = "item_g" parent="table_item">
+         <item name="android:background">@drawable/g</item>
+     </style>
+     <style name = "item_h" parent="table_item">
+         <item name="android:background">@drawable/h</item>
+     </style>
+     <style name = "item_i" parent="table_item">
+         <item name="android:background">@drawable/i</item>
+     </style>
+     <style name = "item_j" parent="table_item">
+         <item name="android:background">@drawable/j</item>
+     </style>
+     <style name = "item_k" parent="table_item">
+         <item name="android:background">@drawable/k</item>
+     </style>   
+    
+     <style name = "table_other1" parent="table_blank">
+        <item name="android:background">@drawable/g</item>
+        <item name="android:alpha">1</item> 
+         </style>
+         
+     <style name = "table_other2" parent="table_blank">
+        <item name="android:background">@drawable/h</item>
+        <item name="android:alpha">1</item> 
+      </style>
+      
+     <!-- singleplayer_testui中用到  start-->
+     <style name="LabelText">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3.0dip</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="ButtonText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">1.0dip</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <!-- singleplayer_testui中用到  end-->
+    
+</resources>
+

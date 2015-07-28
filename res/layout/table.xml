@@ -1,0 +1,526 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:myViewXmlns="http://schemas.android.com/apk/res/com.teamir.mendcurse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/back"
+        android:fadingEdge="none"
+        android:scrollbarSize="0.0dip"
+        android:scrollbars="none" >
+
+     <HorizontalScrollView
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:fadingEdge="none"
+         android:scrollbarSize="0.0dip"
+         android:scrollbars="none" >
+
+                    <LinearLayout 
+                        android:orientation="horizontal" 
+                        android:layout_gravity="center"
+                        android:layout_width="fill_parent" 
+                        android:layout_height="fill_parent">
+                        
+                        
+                        
+                        <TableLayout 
+                            android:id="@+id/table_layout"
+                            android:paddingTop="20.0dip" 
+                            android:layout_width="fill_parent" 
+                            android:layout_height="fill_parent" 
+                            android:layout_marginLeft="10.0dip">
+                            
+                            <TableRow>                              	
+                                <com.teamir.mendcurse.table.MyView						        
+							        myViewXmlns:elementId ="1"
+							        style="@style/item_a" />
+                                <TextView   style="@style/table_blank"/>                              
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+
+							    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="2"
+							        style="@style/item_k" />							    
+							</TableRow>
+							
+                        	<TableRow>
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="3"
+							        style="@style/item_b" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="4"
+							        style="@style/item_c" />
+                        	    
+                        	    <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="5"
+							        style="@style/item_e" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="6"
+							        style="@style/item_a" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="7"
+							        style="@style/item_a" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="8"
+							        style="@style/item_a" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="9"
+							        style="@style/item_j" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="10"
+							        style="@style/item_k" />
+                        	</TableRow>
+                        	
+                        	<TableRow>         	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="11"
+							        style="@style/item_b" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="12"
+							        style="@style/item_c" />
+                        	    
+								
+                        	    <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                                <TextView   style="@style/table_blank"/>
+                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="13"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="14"
+							        style="@style/item_e" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="15"
+							        style="@style/item_a" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="16"
+							        style="@style/item_a" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="17"
+							        style="@style/item_j" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="18"
+							        style="@style/item_k" />
+                        	</TableRow>
+                        	
+                        	
+                        	<TableRow>         	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="19"
+							        style="@style/item_b" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="20"
+							        style="@style/item_c" />
+                        	    
+								
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="21"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="22"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="23"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="24"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                                <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="25"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="26"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="27"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="28"
+							        style="@style/item_d" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="29"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="30"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="31"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="32"
+							        style="@style/item_e" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="33"
+							        style="@style/item_e" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="34"
+							        style="@style/item_a" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="35"
+							        style="@style/item_j" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="36"
+							        style="@style/item_k" />
+                        	</TableRow>
+                        	
+                        	<TableRow>         	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="37"
+							        style="@style/item_b" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="38"
+							        style="@style/item_c" />
+                        	   
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="39"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="40"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="41"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="42"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                                <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="43"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="44"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="45"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="46"
+							        style="@style/item_d" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="47"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="48"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="49"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="50"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="51"
+							        style="@style/item_e" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="52"
+							        style="@style/item_e" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="53"
+							        style="@style/item_j" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="54"
+							        style="@style/item_k" />
+                        	</TableRow>
+                        	
+                        	<TableRow>         	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="55"
+							        style="@style/item_b" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="56"
+							        style="@style/item_c" />
+                        	   
+                        	    <TextView style="@style/table_other1" />                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="72"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="73"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                                <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="74"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="75"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="76"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="77"
+							        style="@style/item_d" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="78"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="79"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="80"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="81"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="82"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="83"
+							        style="@style/item_f" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="84"
+							        style="@style/item_e" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="85"
+							        style="@style/item_j" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="86"
+							        style="@style/item_k" />
+                        	</TableRow>
+                        	
+                        	<TableRow>         	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="87"
+							        style="@style/item_b" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="88"
+							        style="@style/item_c" />
+                        	   
+                        	    <TextView style="@style/table_other2" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="104"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="105"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="106"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                                <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="107"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="108"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="109"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="110"
+							        style="@style/item_d" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="111"
+							        style="@style/item_d" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="112"
+							        style="@style/item_d" />
+                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="113"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="114"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="115"
+							        style="@style/item_f" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="116"
+							        style="@style/item_f" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="117"
+							        style="@style/item_j" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="118"
+							        style="@style/item_k" />
+                        	</TableRow>
+                        	
+                        	<TableRow>
+                        	    <TextView   style="@style/table_blank_small"/>
+                        	</TableRow>
+                        	
+                        	<TableRow >
+                        	    <TextView   style="@style/table_blank"/>
+                        	    <TextView   style="@style/table_blank"/>
+                        	                          	    
+                        	    
+                                <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="57"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="58"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="59"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="60"
+							        style="@style/item_g" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="61"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="62"
+							        style="@style/item_g" />
+                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="63"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="64"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="65"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="66"
+							        style="@style/item_g" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="67"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="68"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="69"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="70"
+							        style="@style/item_g" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="71"
+							        style="@style/item_g" />
+                        	</TableRow>
+                        	
+                        	<TableRow >
+                        	    <TextView   style="@style/table_blank"/>
+                        	    <TextView   style="@style/table_blank"/>
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="89"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="90"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="91"
+							        style="@style/item_h" />
+                        	    
+                        	    
+                                <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="92"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="93"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="94"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="95"
+							        style="@style/item_h" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="96"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="97"
+							        style="@style/item_h" />
+                        	    
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="98"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="99"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="100"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="101"
+							        style="@style/item_h" />
+                        	    
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="102"
+							        style="@style/item_h" />
+                        	    <com.teamir.mendcurse.table.MyView
+							        myViewXmlns:elementId ="103"
+							        style="@style/item_h" />
+                        	</TableRow>
+                        	
+	                         </TableLayout>
+                    </LinearLayout>
+    </HorizontalScrollView>
+   </ScrollView> 
+
+</RelativeLayout>

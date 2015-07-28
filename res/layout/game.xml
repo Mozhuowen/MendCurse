@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+
+    >
+    
+    <LinearLayout 
+        android:id="@+id/game_navigation"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:background="#9f000000"
+        android:layout_margin="10dp"
+        >
+       <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_margin="6dp"
+		android:stretchColumns="*"
+        >
+        <Button 
+             android:id="@+id/game_singleplayer"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="单人"
+             />
+      <Button 
+             android:id="@+id/game_headsup"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="双人"
+             />      
+        
+            <Button 
+                android:id="@+id/game_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选项"
+                />
+        </TableLayout>
+     </LinearLayout>
+</RelativeLayout>
